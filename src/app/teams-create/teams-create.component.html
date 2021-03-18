@@ -1,0 +1,9 @@
+<h2>Team Create</h2>
+
+<form>
+  <input type="text" class="form-control" id="teamId" [(ngModel)]="team.teamId" name="teamId" mdbActive>
+  <input type="text" class="form-control" id="teamName" [(ngModel)]="team.teamName" name="teamName" mdbActive>
+  <input type="text" class="form-control" id="teamDesc" [(ngModel)]="team.teamDesc" name="teamDesc" mdbActive>
+  <button type="submit" (click)="createTeam()">Save</button>
+</form>
+

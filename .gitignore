@@ -1,0 +1,15 @@
+node_modules/
+target/
+bin/
+.checkstyle
+.classpath
+.project
+.settings
+.idea/
+*.iml
+*.orig
+*.jar
+*.log
+*.swp
+.DS_Store
+test-output
