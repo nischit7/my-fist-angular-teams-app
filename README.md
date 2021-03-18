@@ -1,8 +1,12 @@
 # Client
 
-For quicc build
+For quick build
 
     npm install && npm start 
+
+This sample angular code works with backend spring boot application exposing some REST APIs.
+The backend spring boot server is at https://github.com/nischit7/springboot-api-server.
+If you want to run the client, suggestion is to also clone the backend server and then run.
 
 ## Development server
 
